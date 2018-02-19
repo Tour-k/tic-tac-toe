@@ -11,20 +11,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- CSS profile -->
-<link rel="stylesheet" type="text/css" href="../CSS/GameProfile.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/GameProfile.css">
 
     <!-- Police Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
 
-
-
-    <title>Morpion Ninja</title>
-  </head>
-<link rel="stylesheet" type="text/css" href="../CSS/GameProfile.css">
-
     <!-- Notre JavaScript -->
     <script type="text/javascript" src="js/script.js"></script>
 
+    <title>Morpion Ninja</title>
+  </head>
   <body>
     <h1>Welcome to the game</h1>
         <div id="annonce"></div>
