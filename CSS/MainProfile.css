@@ -1,0 +1,69 @@
+/*
+Couleur blanche : #121212;
+Couleur Noire : #FFFFFF;
+*/
+
+.home{
+	margin: 0px;
+}
+
+.Button {
+	z-index: 3;
+	position: absolute;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.Button > a {
+	position: absolute;
+	margin-left: 50%;
+}
+
+.White {
+	z-index: 1;
+	padding: 3px;
+	position: absolute;
+	margin-right: 50%; 
+	text-align: right;
+	color: #121212;
+	background-color: #FFFFFF;
+	width: 50%;
+	height: 100%;
+}
+
+.White > h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 50px;
+}
+
+.Black {
+	z-index: 1;
+	position: absolute;
+	margin-left: 50%;
+	padding: 3px;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #121212;
+	width: 100%;
+	height: 100%;
+}
+
+.Black > h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 50px;
+}
+
+.tete_bicolore {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+}
+
+.tete_bicolore > img {
+	display: block;
+	position: relative;
+	margin: auto;
+	padding-top: 100px;
+	height: 604px; 
+}
+
