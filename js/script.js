@@ -1,7 +1,3 @@
-    <script type="text/javascript">
-
-
-
 // récupérer le nom des joueurs 
 var player1 =prompt('joeur 1 entrez votre nom'); 
 var player2 =prompt('joeur 2 entrez votre nom');
@@ -57,6 +53,3 @@ annonce();
     var textannonce = document.createTextNode('c\'est à '+player+' de jouer !');
     annonce.appendChild(textannonce);
 } */
-
-
-    </script>
