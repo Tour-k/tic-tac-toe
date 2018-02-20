@@ -33,6 +33,11 @@ function annonce2 (nbrClic) {
     }
 }
 
+//on desactive la touche 
+function checked(){
+    var casedisabled = document.getElementById('case0');
+    casedisabled.checked=true;
+}
 
 //Cette fonction teste l'alignement des valeur X et O dans le tableau Morpion
         function testAlignement(Morpion, player1, player2) {

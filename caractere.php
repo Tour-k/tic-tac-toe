@@ -7,21 +7,41 @@
   	<div class="container home"> 		    
   		<div class="row">
     		<div class="col-sm-6 White">
-      			<h1>Welcome to the</h1>
+      			<h1>Select your </h1>
     		</div>
     		<div class="col-sm-6 Black">
-      			<h1>Ninja's Tic Tac Toe</h1>
+      			<h1>Caracter</h1>
     		</div>
     		<div class="col-sm-12 Button">
-   				<a href="caractere.php">  	
+   				<a href="game.php">  	
   					<button type="button" class="btn btn-outline-danger">START</button>
   				</a>
     		</div>
   		</div>
-	</div>
-	   <div class="tete_bicolore">
-        <img src="../images/tete_bicolore.png" class="bloc">
-    </div>/script>
+    </div>
+	
+
+      <div class="persos">
+          <span class="perso1">
+              <img src="../images/Tete_1_02.png">
+          </span>
+
+          <span class="perso2">
+              <img src="../images/Tete_2_02.png">
+          </span>
+
+          <span class="perso3">
+              <img src="../images/Tete_3_02.png">
+          </span>
+
+          <span class="perso4">
+              <img src="../images/Tete_4_02.png">
+          </span>
+        </div>
+
+
+dfg
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

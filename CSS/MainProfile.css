@@ -67,3 +67,43 @@ Couleur Noire : #FFFFFF;
 	height: 604px; 
 }
 
+.persos{
+	display: none;
+	z-index: 2; 
+	position: absolute;
+	padding-top: 100px;
+	width: 100%;
+
+}
+
+.perso1 {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	padding-top: 100px;
+	height: 150px; 
+}
+
+.perso2 {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	padding-top: 100px;
+	height: 150px; 
+}
+
+.perso3 {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	padding-top: 100px;
+	height: 150px; 
+}
+
+.perso4 {
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	padding-top: 100px;
+	height: 150px; 
+}
