@@ -13,6 +13,7 @@ Morpion = new Array(9);
             annonce.appendChild(textannonce1);
         }
         annonce1();
+<<<<<<< HEAD
 
         function annonce2 (nbrClic) { 
             var textannonce3=document.createTextNode(player1 +' doit jouer');
@@ -20,6 +21,13 @@ Morpion = new Array(9);
 
 
 <<<<<<< HEAD
+=======
+
+        function annonce2 (nbrClic) { 
+            var textannonce3=document.createTextNode(player1 +' doit jouer');
+            var textannonce2=document.createTextNode(player2 +' doit jouer');
+
+>>>>>>> parent of 98323e7... Merge branch 'Manuel_02' into Manuel
             if (nbrClic%2==0){
                 var annonce=document.querySelector('#annonce');
                 var remove1=annonce.lastChild;
@@ -32,6 +40,7 @@ Morpion = new Array(9);
                 annonce.appendChild(textannonce2);  
             }
         }
+<<<<<<< HEAD
 =======
     if (nbrClic%2==0){
         var annonce=document.querySelector('#annonce');
@@ -47,6 +56,8 @@ Morpion = new Array(9);
     
 }
 >>>>>>> parent of b9e91be... clear
+=======
+>>>>>>> parent of 98323e7... Merge branch 'Manuel_02' into Manuel
 
 
         //Cette fonction teste l'alignement des valeur X et O dans le tableau Morpion
