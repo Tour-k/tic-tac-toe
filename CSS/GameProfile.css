@@ -8,16 +8,8 @@ h1 {
 #annonce{
 	font-family: 'Sedgwick Ave Display', cursive;
 	text-align: center;
-	color: red;
 }
 
-#checkedCase{
-	color: red;
-	width: 100%;
-	margin: auto;
-}
-
-}
 
 table{
 	width: 50%;
