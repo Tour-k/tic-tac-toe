@@ -21,7 +21,10 @@
 	</div>
 	   <div class="tete_bicolore">
         <img src="../images/tete_bicolore.png" class="bloc">
-    </div>/script>
+    </div>
+
+
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

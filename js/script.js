@@ -7,6 +7,22 @@ var nbrClic = 0, player;
 //Tableau de valeur, joueur 1 : X, joueur 2 : O 
 Morpion = new Array(9);
         
+
+//on récupère le nom du personnage 
+//joeur 1 
+function user1(){
+    var textuser=document.getElementById('textuser')
+    var selectionUser = document.createTextNode('Player n°1, choose your caracter :')
+};
+
+function user2(){
+    var textuser=document.getElementById('textuser')
+    var selectionUser = document.createTextNode('Player n°2, choose your caracter :')
+};
+
+
+
+
 //ces fonctions annoncent le nom du joueur à chaques tours
 function annonce1 () {
     var textannonce1=document.createTextNode(player1 +' doit jouer');
@@ -33,11 +49,7 @@ function annonce2 (nbrClic) {
     }
 }
 
-//on desactive la touche 
-function checked(){
-    var casedisabled = document.getElementById('case0');
-    casedisabled.checked=true;
-}
+
 
 //Cette fonction teste l'alignement des valeur X et O dans le tableau Morpion
         function testAlignement(Morpion, player1, player2) {

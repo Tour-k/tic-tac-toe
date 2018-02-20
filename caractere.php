@@ -8,11 +8,41 @@
   		<div class="row">
     		<div class="col-sm-6 White">
       			<h1>Select your </h1>
-    		</div>
-    		<div class="col-sm-6 Black">
+    		
+
+              <div class="tetebtn"> 
+                <img src="../images/Tete_1_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">Paul</button>
+              </div>
+            </div>
+
+            <div class="tetebtn"> 
+                <img src="../images/Tete_2_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">Pierre</button>
+              </div>
+            </div>
+         </div>
+
+
+          <div class="col-sm-6 Black">
       			<h1>Caracter</h1>
+            <div class="tetebtn"> 
+                <img src="../images/Tete_3_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">Francois</button>
+              </div>
+            </div>
+
+              <div class="tetebtn"> 
+                <img src="../images/Tete_4_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">Guy</button>
+              </div>
     		</div>
-    		<div class="col-sm-12 Button">
+    		
+        <div class="col-sm-12 Button">
    				<a href="game.php">  	
   					<button type="button" class="btn btn-outline-danger">START</button>
   				</a>
@@ -20,39 +50,8 @@
   		</div>
     </div>
 	
-          <div class="persos">
-            
-            <div class="tetebtn"> 
-                <img src="../images/Tete_1_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">GUY</button>
-              </div>
-            </div>
-
-            <div class="tetebtn"> 
-                <img src="../images/Tete_2_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">GUY</button>
-              </div>
-            </div>
-  
           
-              <div class="tetebtn"> 
-                <img src="../images/Tete_3_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">GUY</button>
-              </div>
-            </div>
-
-              <div class="tetebtn"> 
-                <img src="../images/Tete_4_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">GUY</button>
-              </div>
-            </div>
-          
-              
-
+<div id="texteuser">Player n°1, choose your caracter :</div> 
 
 
 

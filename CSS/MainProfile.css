@@ -80,12 +80,18 @@ Couleur Noire : #FFFFFF;
 position: fixed;
 align-content: center;
 
+
 }
 
 .tetebtn{
 	float: left;
-	margin-left: 10px;
+	
 }
 .btnperso{
 	display: block;
+
+}
+
+#texteuser {
+	z-index: 2;
 }

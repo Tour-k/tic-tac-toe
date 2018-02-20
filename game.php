@@ -25,7 +25,7 @@
     	<div id="annonce"></div>
 		<table onclick="nbrClic++; testAlignement(Morpion, player1, player2); annonce2(nbrClic, player);">
 			<tr>
-				<td id="case0" onclick= "myFunction(this, nbrClic, 0); checked();"></td>
+				<td id="case0" onclick= "myFunction(this, nbrClic, 0);"></td>
 				<td id="case1" onclick= "myFunction(this, nbrClic, 1);"></td>
 				<td id="case2" onclick= "myFunction(this, nbrClic, 2);"></td>
 			</tr>
