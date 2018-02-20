@@ -8,27 +8,16 @@ var nbrClic = 0, player;
 Morpion = new Array(9);
         
         //cette fonction annonce le nom du joueur à chaques tours
-<<<<<<< HEAD
         function annonce1 () {
             var textannonce1=document.createTextNode(player1 +' doit jouer');
             annonce.appendChild(textannonce1);
         }
         annonce1();
-<<<<<<< HEAD
 
         function annonce2 (nbrClic) { 
             var textannonce3=document.createTextNode(player1 +' doit jouer');
             var textannonce2=document.createTextNode(player2 +' doit jouer');
 
-
-<<<<<<< HEAD
-=======
-
-        function annonce2 (nbrClic) { 
-            var textannonce3=document.createTextNode(player1 +' doit jouer');
-            var textannonce2=document.createTextNode(player2 +' doit jouer');
-
->>>>>>> parent of 98323e7... Merge branch 'Manuel_02' into Manuel
             if (nbrClic%2==0){
                 var annonce=document.querySelector('#annonce');
                 var remove1=annonce.lastChild;
@@ -41,41 +30,7 @@ Morpion = new Array(9);
                 annonce.appendChild(textannonce2);  
             }
         }
-<<<<<<< HEAD
-=======
-    if (nbrClic%2==0){
-        var annonce=document.querySelector('#annonce');
-        var remove1=annonce.lastChild;
-        annonce.removeChild(remove1);
-        annonce.appendChild(textannonce3); 
-    } else if(nbrClic%2!==0){
-        var annonce=document.querySelector('#annonce');
-        var remove1=annonce.lastChild;
-        annonce.removeChild(remove1);
-        annonce.appendChild(textannonce2);  
-    
-    
-}
->>>>>>> parent of b9e91be... clear
-=======
->>>>>>> parent of 98323e7... Merge branch 'Manuel_02' into Manuel
 
-
-=======
-        function annonce (nbrClic, player){
-            if (nbrClic%2==0) {
-                player=player1;
-                document.getElementById('annonce').innerHTML = "C\'est à "+ player + " de jouer";
-            }
-            else {
-                player=player2;
-                document.getElementById('annonce').innerHTML = "C\'est à "+ player + " de jouer";
-            }
-        }
-
-
-
->>>>>>> parent of a540654... enlever le onload
         //Cette fonction teste l'alignement des valeur X et O dans le tableau Morpion
         function testAlignement(Morpion, player1, player2) {
             if(Morpion[0]+Morpion[1]+Morpion[2]=="XXX"||Morpion[3]+Morpion[4]+Morpion[5]=="XXX"||Morpion[6]+Morpion[7]+Morpion[8]=="XXX"||Morpion[0]+Morpion[3]+Morpion[6]=="XXX"||Morpion[1]+Morpion[4]+Morpion[7]=="XXX"||Morpion[2]+Morpion[5]+Morpion[8]=="XXX"||Morpion[0]+Morpion[4]+Morpion[8]=="XXX"||Morpion[2]+Morpion[4]+Morpion[6]=="XXX") {
@@ -91,11 +46,8 @@ Morpion = new Array(9);
         }
 
         //Cette fonction change la couleur de fond des cases en fonction du nbr de clics
-<<<<<<< HEAD
         function changeColorBackGround (id, nbrClic, caseid) {
-=======
-        function myFunction (id, nbrClic, caseid) {
->>>>>>> parent of a540654... enlever le onload
+
             if(nbrClic<=8) { 
                 if(nbrClic%2==0){
                     id.style.backgroundColor= "red";
