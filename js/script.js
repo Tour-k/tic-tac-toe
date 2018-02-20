@@ -19,6 +19,7 @@ Morpion = new Array(9);
             var textannonce2=document.createTextNode(player2 +' doit jouer');
 
 
+<<<<<<< HEAD
             if (nbrClic%2==0){
                 var annonce=document.querySelector('#annonce');
                 var remove1=annonce.lastChild;
@@ -31,6 +32,21 @@ Morpion = new Array(9);
                 annonce.appendChild(textannonce2);  
             }
         }
+=======
+    if (nbrClic%2==0){
+        var annonce=document.querySelector('#annonce');
+        var remove1=annonce.lastChild;
+        annonce.removeChild(remove1);
+        annonce.appendChild(textannonce3); 
+    } else if(nbrClic%2!==0){
+        var annonce=document.querySelector('#annonce');
+        var remove1=annonce.lastChild;
+        annonce.removeChild(remove1);
+        annonce.appendChild(textannonce2);  
+    
+    
+}
+>>>>>>> parent of b9e91be... clear
 
 
         //Cette fonction teste l'alignement des valeur X et O dans le tableau Morpion
