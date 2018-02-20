@@ -30,8 +30,7 @@ function annonce2 (nbrClic) {
         var remove1=annonce.lastChild;
         annonce.removeChild(remove1);
         annonce.appendChild(textannonce2);  
-    
-    
+    }
 }
 
 
