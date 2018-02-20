@@ -26,19 +26,19 @@
     	<div id="annonce"></div>
 		<table onclick="nbrClic++; testAlignement(Morpion, player1, player2); annonce(nbrClic, player);">
 			<tr>
-				<td id="case0" onclick= "myFunction(this, nbrClic, 0);"></td>
-				<td id="case1" onclick= "myFunction(this, nbrClic, 1);"></td>
-				<td id="case2" onclick= "myFunction(this, nbrClic, 2);"></td>
+				<td id="case0" onclick= "changeColorBackGround(this, nbrClic, 0);"></td>
+				<td id="case1" onclick= "changeColorBackGround(this, nbrClic, 1);"></td>
+				<td id="case2" onclick= "changeColorBackGround(this, nbrClic, 2);"></td>
 			</tr>
 			<tr>
-				<td id="case3" onclick= "myFunction(this, nbrClic, 3);"></td>
-				<td id="case4" onclick= "myFunction(this, nbrClic, 4);"></td>
-				<td id="case5" onclick= "myFunction(this, nbrClic, 5);"></td>
+				<td id="case3" onclick= "changeColorBackGround(this, nbrClic, 3);"></td>
+				<td id="case4" onclick= "changeColorBackGround(this, nbrClic, 4);"></td>
+				<td id="case5" onclick= "changeColorBackGround(this, nbrClic, 5);"></td>
 			</tr>
 			<tr>
-				<td id="case6" onclick= "myFunction(this, nbrClic, 6);"></td>
-				<td id="case7" onclick= "myFunction(this, nbrClic, 7);"></td>
-				<td id="case8" onclick= "myFunction(this, nbrClic, 8);"></td>
+				<td id="case6" onclick= "changeColorBackGround(this, nbrClic, 6);"></td>
+				<td id="case7" onclick= "changeColorBackGround(this, nbrClic, 7);"></td>
+				<td id="case8" onclick= "changeColorBackGround(this, nbrClic, 8);"></td>
 			</tr>
 		</table>
     <!-- Optional JavaScript -->

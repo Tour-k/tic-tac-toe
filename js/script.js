@@ -36,7 +36,7 @@ Morpion = new Array(9);
         }
 
         //Cette fonction change la couleur de fond des cases en fonction du nbr de clics
-        function myFunction (id, nbrClic, caseid) {
+        function changeColorBackGround (id, nbrClic, caseid) {
             if(nbrClic<=8) { 
                 if(nbrClic%2==0){
                     id.style.backgroundColor= "red";
