@@ -16,13 +16,18 @@
     <!-- Police Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
 
+<<<<<<< HEAD
+=======
+    <!-- Notre JavaScript -->
+    <script type="text/javascript" src="js/script.js"></script>
+>>>>>>> parent of a540654... enlever le onload
 
     <title>Morpion Ninja - Start the game</title>
   </head>
-  <body>
+  <body onload="annonce(nbrClic, player)">
     <h1>Welcome to the game</h1>
     	<div id="annonce"></div>
-		<table onclick="nbrClic++; testAlignement(Morpion, player1, player2); annonce2(nbrClic, player);">
+		<table onclick="nbrClic++; testAlignement(Morpion, player1, player2); annonce(nbrClic, player);">
 			<tr>
 				<td id="case0" onclick= "changeColorBackGround(this, nbrClic, 0);"></td>
 				<td id="case1" onclick= "changeColorBackGround(this, nbrClic, 1);"></td>
@@ -39,12 +44,15 @@
 				<td id="case8" onclick= "changeColorBackGround(this, nbrClic, 8);"></td>
 			</tr>
 		</table>
+<<<<<<< HEAD
 
 
     <!-- Notre JavaScript -->
     <script type="text/javascript" src="js/script.js"></script>
 
 
+=======
+>>>>>>> parent of a540654... enlever le onload
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
