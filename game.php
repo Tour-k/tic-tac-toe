@@ -22,6 +22,7 @@
   <body>
     <h1>Welcome to the game</h1>
     	<div id="annonce"></div>
+    	<div id="checkedCase">Choisi une case !!</div>
 		<table onclick="nbrClic++; testAlignement(Morpion, player1, player2); annonce2(nbrClic, player);">
 			<tr>
 				<td id="case0" onclick= "changeColorBackGround(this, nbrClic, 0);"></td>

@@ -27,7 +27,7 @@ Morpion = new Array(9);
                 var annonce=document.querySelector('#annonce');
                 var remove1=annonce.lastChild;
                 annonce.removeChild(remove1);
-                annonce.appendChild(textannonce2);  
+                annonce.appendChild(textannonce2); 
             }
         }
 
@@ -47,15 +47,33 @@ Morpion = new Array(9);
 
         //Cette fonction change la couleur de fond des cases en fonction du nbr de clics
         function changeColorBackGround (id, nbrClic, caseid) {
-
             if(nbrClic<=8) { 
-                if(nbrClic%2==0){
-                    id.style.backgroundColor= "red";
-                    Morpion[caseid]= "X";
-                } 
+                if(Morpion[caseid]=="X"||Morpion[caseid]=="O"){
+                    var checkKO=document.createTextNode('Cette case est déjà prise, ouvre donc un peu tes yeux !!');
+                    var checked=document.querySelector('#checkedCase');
+                    var remove1=checked.lastChild;
+                    checked.removeChild(remove1);
+                    checked.appendChild(checkKO);
+                }
                 else {
-                    id.style.backgroundColor= "blue";
-                    Morpion[caseid]= "O";
+                    if(nbrClic%2==0){
+                        id.style.backgroundColor= "red";
+                        Morpion[caseid]= "X";
+                        var checkOK=document.createTextNode('Choisi une case !!');
+                        var checked=document.querySelector('#checkedCase');
+                        var remove1=checked.lastChild;
+                        checked.removeChild(remove1);
+                        checked.appendChild(checkOK);
+                    } 
+                    else {
+                        id.style.backgroundColor= "blue";
+                        Morpion[caseid]= "O";
+                        var checkOK=document.createTextNode('Choisi une case !!');
+                        var checked=document.querySelector('#checkedCase');
+                        var remove1=checked.lastChild;
+                        checked.removeChild(remove1);
+                        checked.appendChild(checkOK);
+                    }
                 }
             }
             else {
