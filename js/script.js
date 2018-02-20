@@ -8,17 +8,28 @@ var nbrClic = 0, player;
 Morpion = new Array(9);
         
         //cette fonction annonce le nom du joueur à chaques tours
-        function annonce (nbrClic, player){
-            if (nbrClic%2==0) {
-                player=player1;
-                document.getElementById('annonce').innerHTML = "C\'est à "+ player + " de jouer";
-            }
-            else {
-                player=player2;
-                document.getElementById('annonce').innerHTML = "C\'est à "+ player + " de jouer";
+        function annonce1 () {
+            var textannonce1=document.createTextNode(player1 +' doit jouer');
+            annonce.appendChild(textannonce1);
+        }
+        annonce1();
+
+        function annonce2 (nbrClic) { 
+            var textannonce3=document.createTextNode(player1 +' doit jouer');
+            var textannonce2=document.createTextNode(player2 +' doit jouer');
+
+            if (nbrClic%2==0){
+                var annonce=document.querySelector('#annonce');
+                var remove1=annonce.lastChild;
+                annonce.removeChild(remove1);
+                annonce.appendChild(textannonce3); 
+            } else {
+                var annonce=document.querySelector('#annonce');
+                var remove1=annonce.lastChild;
+                annonce.removeChild(remove1);
+                annonce.appendChild(textannonce2);  
             }
         }
-
 
 
         //Cette fonction teste l'alignement des valeur X et O dans le tableau Morpion
