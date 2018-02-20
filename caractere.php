@@ -4,7 +4,7 @@
 <?php include 'head.php' ?>
 
   <body>
-  	<div class="container home"> 		    
+  	 <div class="container home"> 		    
   		<div class="row">
     		<div class="col-sm-6 White">
       			<h1>Select your </h1>
@@ -20,27 +20,41 @@
   		</div>
     </div>
 	
+          <div class="persos">
+            
+            <div class="tetebtn"> 
+                <img src="../images/Tete_1_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">GUY</button>
+              </div>
+            </div>
 
-      <div class="persos">
-          <span class="perso1">
-              <img src="../images/Tete_1_02.png">
-          </span>
+            <div class="tetebtn"> 
+                <img src="../images/Tete_2_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">GUY</button>
+              </div>
+            </div>
+  
+          
+              <div class="tetebtn"> 
+                <img src="../images/Tete_3_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">GUY</button>
+              </div>
+            </div>
 
-          <span class="perso2">
-              <img src="../images/Tete_2_02.png">
-          </span>
-
-          <span class="perso3">
-              <img src="../images/Tete_3_02.png">
-          </span>
-
-          <span class="perso4">
-              <img src="../images/Tete_4_02.png">
-          </span>
-        </div>
+              <div class="tetebtn"> 
+                <img src="../images/Tete_4_02.png">
+              <div class="btnperso">
+                <button type="button" class="btnguy">GUY</button>
+              </div>
+            </div>
+          
+              
 
 
-dfg
+
 
 
     <!-- Optional JavaScript -->

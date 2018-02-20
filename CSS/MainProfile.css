@@ -20,7 +20,7 @@ Couleur Noire : #FFFFFF;
 }
 
 .White {
-	z-index: 1;
+	z-index: 0;
 	padding: 3px;
 	position: absolute;
 	margin-right: 50%; 
@@ -37,7 +37,7 @@ Couleur Noire : #FFFFFF;
 }
 
 .Black {
-	z-index: 1;
+	z-index: 0;
 	position: absolute;
 	margin-left: 50%;
 	padding: 3px;
@@ -67,43 +67,25 @@ Couleur Noire : #FFFFFF;
 	height: 604px; 
 }
 
-.persos{
-	display: none;
-	z-index: 2; 
-	position: absolute;
-	padding-top: 100px;
+.persos {
+	z-index: 2;
+	position:absolute;
 	width: 100%;
+	padding-top: 130px;
 
 }
 
-.perso1 {
-	display: inline-block;
-	position: relative;
-	margin: auto;
-	padding-top: 100px;
-	height: 150px; 
+.btnguy{
+
+position: fixed;
+align-content: center;
+
 }
 
-.perso2 {
-	display: inline-block;
-	position: relative;
-	margin: auto;
-	padding-top: 100px;
-	height: 150px; 
+.tetebtn{
+	float: left;
+	margin-left: 10px;
 }
-
-.perso3 {
-	display: inline-block;
-	position: relative;
-	margin: auto;
-	padding-top: 100px;
-	height: 150px; 
-}
-
-.perso4 {
-	display: inline-block;
-	position: relative;
-	margin: auto;
-	padding-top: 100px;
-	height: 150px; 
+.btnperso{
+	display: block;
 }
