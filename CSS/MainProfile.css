@@ -94,4 +94,5 @@ align-content: center;
 
 #texteuser {
 	z-index: 2;
+	display: block;
 }
