@@ -1,9 +1,5 @@
 
 // récupérer le nom des joueurs 
-/*var player1 =prompt('Joueur 1 entrez votre nom'); 
-var player2 =prompt('Joueur 2 entrez votre nom');*/
-
-
 var player1 = sessionStorage.getItem('nom1');
 var player2 = sessionStorage.getItem('nom2');
 
@@ -13,23 +9,6 @@ var nbrClic = 0, player;
 //Tableau de valeur, joueur 1 : X, joueur 2 : O 
 Morpion = new Array(9);
         
-
-
-/*//on récupère le nom du personnage 
-//joeur 1 
-function user1(){
-    var textuser=document.getElementById('textuser')
-    var selectionUser = document.createTextNode('Player n°1, choose your caracter :')
-};
-
-function user2(){
-    var textuser=document.getElementById('textuser')
-    var selectionUser = document.createTextNode('Player n°2, choose your caracter :')
-};
-*/
-
-
-
 //ces fonctions annoncent le nom du joueur à chaques tours
 function annonce1 () {
     var textannonce1=document.createTextNode(player1 +' doit jouer');
