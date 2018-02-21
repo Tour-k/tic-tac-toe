@@ -26,7 +26,6 @@ function perso(i) {
     	choixplayer1.appendChild(indicationchoixplayer1);
     	
     	nom1=personnages[i];
-    	sessionStorage.setItem('nom1');
 
     } else {
     	var choixplayer2 = document.getElementById('choixplayer2');
@@ -36,7 +35,6 @@ function perso(i) {
 
     	
     	nom2=personnages[i];
-    	sessionStorage.setItem('nom2');
     } 
 
     }
