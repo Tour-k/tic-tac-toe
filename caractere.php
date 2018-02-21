@@ -12,7 +12,7 @@
     		
 
             <div class="card-deck">
-              <div class="card" onclick="perso(0)">
+              <div id="carte1W" class="card" onclick="perso(0)">
                 <img class="card-img-top" src="../images/Tete_1_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Pat Tchouli</h5>
@@ -20,7 +20,7 @@
                 </div>
               </div>
   
-              <div class="card" onclick="perso(1);">
+              <div id="carte2W" class="card" onclick="perso(1);">
                 <img class="card-img-top" src="../images/Tete_2_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Mar Maïe</h5>
@@ -48,7 +48,7 @@
       			<h1>Caracter</h1>
        
           <div class="card-deck">
-              <div class="card" onclick="perso(2);">
+              <div id="carte1B" class="card" onclick="perso(2);">
                 <img class="card-img-top" src="../images/Tete_3_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title" >Hedi Dong</h5>
@@ -56,7 +56,7 @@
                 </div>
               </div>
       
-            <div class="card" onclick="perso(3);">
+            <div id="carte2B" class="card" onclick="perso(3);">
               <img class="card-img-top" src="../images/Tete_4_02.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title" style="text-decoration-color:black;">Pag Aïe</h5>

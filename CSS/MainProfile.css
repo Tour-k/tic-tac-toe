@@ -42,6 +42,28 @@ h4{
 	padding-top: 50px;
 }
 
+#carte1B{
+	padding: none;
+	margin: none;
+
+}
+
+#carte1W{
+
+	padding: none; 
+	margin: none;
+}
+
+
+#carte2B{
+	margin-left: 0px;
+	padding-right: 0px;
+}
+
+#carte2W{
+	margin-left: 0px;
+	padding-right: 0px;
+}
 
 .home{
 	margin: 0px;
