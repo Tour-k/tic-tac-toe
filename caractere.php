@@ -16,7 +16,7 @@
                 <img class="card-img-top" src="../images/Tete_1_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Pat Tchouli</h5>
-                  <p class="card-text">Rapide descriptif du personnage</p>
+                  <p class="card-text">Gagne deux fois plus mais perd aussi deux fois plus</p>
                 </div>
               </div>
   
@@ -24,7 +24,7 @@
                 <img class="card-img-top" src="../images/Tete_2_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Mar Maïe</h5>
-                  <p class="card-text">Rapide descriptif du personnage</p>
+                  <p class="card-text">possibilité de gagné avec une combinaison supplémentaire mais perds deux fois plus</p>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@
                 <img class="card-img-top" src="../images/Tete_3_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title" >Hedi Dong</h5>
-                  <p class="card-text">Rapide descriptif du personnage</p>
+                  <p class="card-text">possibilité de gagné avec une combinaison supplémentaire</p>
                 </div>
               </div>
       
@@ -60,7 +60,7 @@
               <img class="card-img-top" src="../images/Tete_4_02.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title" style="text-decoration-color:black;">Pag Aïe</h5>
-                <p class="card-text">Rapide descriptif du personnage</p>
+                <p class="card-text">possibilité de gagné avec une combinaison supplémentaire</p>
               </div>
         
             </div>

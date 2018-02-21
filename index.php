@@ -3,7 +3,7 @@
 
 <?php include 'head.php' ?>
 
-  <body>
+  <body onload="setTimeout(loadpage, 3000)">
   	<div class="container home"> 		    
   		<div class="row">
     		<div class="col-sm-6 White">
@@ -24,7 +24,7 @@
     </div>
 
 
-  
+  <script type="text/javascript" src="js/index_timing.js"> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
