@@ -41,8 +41,13 @@
 			</tr>
 		</table>
 
-<div id="nameplayer1"></div>
-<div id="nameplayer2"></div>
+<!--<div id="nameplayer1"></div>
+<div id="nameplayer2"></div>-->
+
+
+
+
+
         
     <!-- Optional JavaScript -->
  <!-- Notre JavaScript -->
