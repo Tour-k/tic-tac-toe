@@ -41,8 +41,7 @@
 			</tr>
 		</table>
 
-<!--<div id="nameplayer1"></div>
-<div id="nameplayer2"></div>-->
+
 
 
 
