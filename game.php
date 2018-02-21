@@ -41,17 +41,20 @@
 			</tr>
 		</table>
 
-
+<div id="nameplayer1"></div>
+<div id="nameplayer2"></div>
         
     <!-- Optional JavaScript -->
  <!-- Notre JavaScript -->
 
-    <script type="text/javascript" src="js/script.js">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script_personnage.js">    
+
 /*il vaut mieux mettre le javascript en fin de page html, juste avant la fermeture de body. 
 Comme ça la page html peut se charger avant de charger le javascript. */
-    </script>
 
 
+ </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

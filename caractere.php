@@ -4,56 +4,88 @@
 <?php include 'head.php' ?>
 
   <body>
-  	 <div class="container home"> 		    
+  	 
+    <div class="container home"> 		    
   		<div class="row">
     		<div class="col-sm-6 White">
       			<h1>Select your </h1>
     		
 
-              <div class="tetebtn"> 
-                <img src="../images/Tete_1_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">Paul</button>
+            <div class="card-deck">
+              <div class="card" onclick="perso(0)">
+                <img class="card-img-top" src="../images/Tete_1_02.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Pat Tchouli</h5>
+                  <p class="card-text">Rapide descriptif du personnage</p>
+                </div>
+              </div>
+  
+              <div class="card" onclick="perso(1);">
+                <img class="card-img-top" src="../images/Tete_2_02.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Mar Maïe</h5>
+                  <p class="card-text">Rapide descriptif du personnage</p>
+                </div>
               </div>
             </div>
 
-            <div class="tetebtn"> 
-                <img src="../images/Tete_2_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">Pierre</button>
-              </div>
-            </div>
+             </br></br> 
+
+    <h1 ><button id="player1" onclick="process(1)" >Player 1</button>, you choose : </h1>
+    <h1 ><button id="player1" onclick="process(2)" >Player 2</button>, you choose : </h1>
+
+ 
+
+            
          </div>
 
 
-          <div class="col-sm-6 Black">
+        <div class="col-sm-6 Black">
+   
       			<h1>Caracter</h1>
-            <div class="tetebtn"> 
-                <img src="../images/Tete_3_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">Francois</button>
+       
+          <div class="card-deck">
+              <div class="card" onclick="perso(2);">
+                <img class="card-img-top" src="../images/Tete_1_02.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title" >Hedi Dong</h5>
+                  <p class="card-text">Rapide descriptif du personnage</p>
+                </div>
               </div>
+      
+            <div class="card" onclick="perso(3);">
+              <img class="card-img-top" src="../images/Tete_2_02.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title" style="text-decoration-color:black;">Pag Aïe</h5>
+                <p class="card-text">Rapide descriptif du personnage</p>
+              </div>
+        
             </div>
+          </div>
 
-              <div class="tetebtn"> 
-                <img src="../images/Tete_4_02.png">
-              <div class="btnperso">
-                <button type="button" class="btnguy">Guy</button>
-              </div>
-    		</div>
+        </br></br> 
+
+              <h1 id="choixplayer1">???</h1>
+              <h1 id="choixplayer2">???</h1>
+
+
+
+        </div>
     		
         <div class="col-sm-12 Button">
    				<a href="game.php">  	
   					<button type="button" class="btn btn-outline-danger">START</button>
   				</a>
     		</div>
-  		</div>
+      </div>  		
     </div>
 	
           
-<div id="texteuser">Player n°1, choose your caracter :</div> 
 
 
+ <!-- Notre JavaScript -->
+
+    <script type="text/javascript" src="js/script_personnage.js">
 
 
     <!-- Optional JavaScript -->

@@ -2,6 +2,24 @@
 Couleur blanche : #121212;
 Couleur Noire : #FFFFFF;
 */
+p{
+	z-index: 2;
+	color: black;
+	text-align: left;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+h5{
+	color: black;
+	z-index: 2;
+	text-align: left;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.card-deck{
+	padding-top: 50px;
+}
+
 
 .home{
 	margin: 0px;
