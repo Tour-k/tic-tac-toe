@@ -74,7 +74,7 @@
     		
         <div class="col-sm-12 Button">
    				<a href="game.php">  	
-  					<button type="button" class="btn btn-outline-danger">START</button>
+  					<button type="button" class="btn btn-outline-danger" onclick="envoi_nom()">START</button>
   				</a>
     		</div>
       </div>  		

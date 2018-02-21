@@ -3,8 +3,9 @@
 /*var player1 =prompt('Joueur 1 entrez votre nom'); 
 var player2 =prompt('Joueur 2 entrez votre nom');*/
 
-var player1=document.getElementById('choixplayer1');
-var player2=document.getElementById('choixplayer2');
+
+var player1 = sessionStorage.getItem('nom1');
+var player2 = sessionStorage.getItem('nom2');
 
 
 var nbrClic = 0, player;
