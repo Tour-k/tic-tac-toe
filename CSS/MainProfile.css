@@ -16,6 +16,28 @@ h5{
 	font-family: 'Sedgwick Ave Display', cursive;
 }
 
+h4{
+	
+	z-index: 2;
+	text-align: left;
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+.Black > h4 {
+	text-align: left;
+	}
+
+#choixplayer1 {
+	margin-top: 5px;
+}
+
+#choixplayer2 {
+	margin-top: 10px;
+}
+
+.White > h4 {
+	text-align: right;
+	}
+
 .card-deck{
 	padding-top: 50px;
 }
@@ -30,6 +52,10 @@ h5{
 	position: absolute;
 	margin: auto;
 	padding-top: 70px;
+}
+
+button:active {
+	background-color:red;
 }
 
 .Button > a {
@@ -109,6 +135,8 @@ align-content: center;
 	display: block;
 
 }
+
+
 
 #texteuser {
 	z-index: 2;

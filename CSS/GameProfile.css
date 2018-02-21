@@ -23,3 +23,11 @@ td {
 	height: 50px;
 	width: 50px;
 }
+
+#nameplayer1 {
+	display: none;
+}
+
+#nameplayer2 {
+	display: none;
+}

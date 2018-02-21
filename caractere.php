@@ -31,8 +31,11 @@
 
              </br></br> 
 
-    <h1 ><button id="player1" onclick="process(1)" >Player 1</button>, you choose : </h1>
-    <h1 ><button id="player1" onclick="process(2)" >Player 2</button>, you choose : </h1>
+    <h4 ><button class="btn btn-outline-danger" id="btnplayer" onclick="process(1)" >Player 1</button>, you choose : </h4>
+    
+</br>
+
+    <h4 ><button class="btn btn-outline-danger" id="btnplayer1" onclick="process(2)" >Player 2</button>, you choose : </h4>
 
  
 
@@ -46,7 +49,7 @@
        
           <div class="card-deck">
               <div class="card" onclick="perso(2);">
-                <img class="card-img-top" src="../images/Tete_1_02.png" alt="Card image cap">
+                <img class="card-img-top" src="../images/Tete_3_02.png" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title" >Hedi Dong</h5>
                   <p class="card-text">Rapide descriptif du personnage</p>
@@ -54,7 +57,7 @@
               </div>
       
             <div class="card" onclick="perso(3);">
-              <img class="card-img-top" src="../images/Tete_2_02.png" alt="Card image cap">
+              <img class="card-img-top" src="../images/Tete_4_02.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title" style="text-decoration-color:black;">Pag Aïe</h5>
                 <p class="card-text">Rapide descriptif du personnage</p>
@@ -65,8 +68,8 @@
 
         </br></br> 
 
-              <h1 id="choixplayer1">???</h1>
-              <h1 id="choixplayer2">???</h1>
+              <h4 id="choixplayer1">???</h4> </br>
+              <h4 id="choixplayer2">???</h4>
 
 
 
