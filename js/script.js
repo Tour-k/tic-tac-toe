@@ -55,6 +55,8 @@ function annonce2 (nbrClic) {
 //Cette fonction change la couleur de fond des cases en fonction du nbr de clics
         function myFunction (id, nbrClic, caseid) {
 
+            
+
             if(nbrClic<=8) { 
                 if(nbrClic%2==0){
                     id.style.backgroundColor= "red";
@@ -71,3 +73,10 @@ function annonce2 (nbrClic) {
             }
         } 
 
+        function disabeledcase () {
+
+            var macase=document.getElementById(id);
+                    alert(id);
+                    
+                    macase.setAttribute("disabled","");
+        }
