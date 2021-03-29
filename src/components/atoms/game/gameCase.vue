@@ -2,7 +2,7 @@
   <div
     :class="[
       isClicked
-        ? playerRound
+        ? player
           ? $style.clickedGameCasePlayer1
           : $style.clickedGameCasePlayer2
         : $style.defaultGameCase,
@@ -14,28 +14,34 @@
 
 <script>
 import { mapGetters, mapActions } from "vuex";
+
 export default {
   name: "GameCase",
+  props: {
+    position: {
+      type: Object,
+      defaut: () => {},
+    },
+  },
   data() {
     return {
       isClicked: false,
+      player: false,
     };
   },
   methods: {
-    ...mapActions(["changePlayerRound"]),
+    ...mapActions(["changePlayerRound", "addTokenOnBoard"]),
     caseClicked() {
-      console.log("case clicked");
       this.isClicked = true;
+      this.player = this.playerRound;
       this.changePlayerRound();
-      console.log(this.playerRound);
+      this.addTokenOnBoard(this.position);
+      this.$emit("check-board");
     },
   },
   computed: {
     ...mapGetters(["playerRound"]),
   },
-  mounted() {
-    console.log(this.playerRound);
-  }
 };
 </script>
 
