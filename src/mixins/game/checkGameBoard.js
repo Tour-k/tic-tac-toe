@@ -15,10 +15,12 @@ export const checkBoard = {
     ...mapActions(["initBoard"]),
     checkGameBoard() {
       if (this.isWinner()) {
+        this.$emit("winner", this.playerRound ? 1 : 2);
         console.log("Winner is ... ME");
         this.initGame();
       } else {
         if (this.isBoardFull()) {
+          this.$emit("fullBoard");
           console.log("play an other party ?");
           this.initGame();
         } else {
@@ -60,22 +62,40 @@ export const checkBoard = {
       }
     },
     checkCols() {
-      return false;
-      // if (
-      //   this.checkUnitCol(0) ||
-      //   this.checkUnitCol(1) ||
-      //   this.checkUnitCol(2)
-      // ) {
-      //   return true;
-      // } else {
-      //   return false;
-      // }
+      if (
+        this.checkUnitCol(0) ||
+        this.checkUnitCol(1) ||
+        this.checkUnitCol(2)
+      ) {
+        return true;
+      } else {
+        return false;
+      }
     },
-    // checkUnitCol(id) {
-    //   console.log(id);
-    // },
+    checkUnitCol(id) {
+      if (
+        this.boardGame[0][id] == this.boardGame[1][id] &&
+        this.boardGame[1][id] == this.boardGame[2][id] &&
+        this.boardGame[0][id] != 0
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    },
     checkDiags() {
-      return false;
+      if (
+        (this.boardGame[0][0] == this.boardGame[1][1] &&
+          this.boardGame[1][1] == this.boardGame[2][2] &&
+          this.boardGame[0][0] != 0) ||
+        (this.boardGame[0][2] == this.boardGame[1][1] &&
+          this.boardGame[1][1] == this.boardGame[2][0] &&
+          this.boardGame[0][2] != 0)
+      ) {
+        return true;
+      } else {
+        return false;
+      }
     },
     isBoardFull() {
       var isFull = true;
@@ -94,6 +114,6 @@ export const checkBoard = {
     },
   },
   computed: {
-    ...mapGetters(["boardGame"]),
+    ...mapGetters(["playerRound", "boardGame"]),
   },
 };

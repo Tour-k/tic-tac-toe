@@ -1,15 +1,15 @@
 <template>
   <div class="game">
-    <GameTable />
+    <FullGameTable />
   </div>
 </template>
 
 <script>
-import GameTable from "@/components/organismes/game/gameTable.vue";
+import FullGameTable from "@/components/organismes/game/fullGameBoard";
 export default {
   name: "Game",
   components: {
-    GameTable,
+    FullGameTable,
   }
 };
 </script>
